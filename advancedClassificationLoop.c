@@ -1,21 +1,7 @@
 #include<stdio.h>
 #include<math.h>
+#include "NumClass.h"
 
-int isArmstrong(int a);
-int isPalindrome(int a);
-int main(){
-  if ((isArmstrong(407))==1)
-  {
-    printf("%d",407);
-    
- }
-    printf("\n");
-   if ((isPalindrome(121))==1)
-  {
-    printf("%d",121);
-}
-return 0;
-}
 int isArmstrong(int a) 
 {
     int temp=0;

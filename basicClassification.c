@@ -1,23 +1,9 @@
 #include<stdio.h>
 #include<math.h>
-int isPrime(int a);
-int isStrong(int a);
+#include "NumClass.h"
 
-int main(){
-  if ((isStrong(2))==1)
-  {
-    printf("%d",2);
-    
- }
-    printf("\n");
-   if ((isPrime (137))==1)
-  {
-    printf("%d",137);
-}
-return 0;
-}
 int isPrime(int a){
-    for(int i=2; i<sqrt(a);i++){
+    for(int i=2; i< a - 1;i++){
         if(a%i==0)
         return 0;
     }
